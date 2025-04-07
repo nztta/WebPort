@@ -320,7 +320,7 @@ p.Artibuy {
 .about{
     height: 10;
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
     padding: 20px;
     align-items: flex-start; 
     text-align: left;   
@@ -343,6 +343,7 @@ p.Artibuy {
   text-align: center;
   margin: auto;
   width: 700px;
+  margin-top: 200px
 }
 
 .skills {
@@ -432,7 +433,7 @@ p.Artibuy {
 }
 
 .contact {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .slide {
@@ -580,6 +581,12 @@ body.dark-theme .theme-toggle:hover {
     height: 700px;
 }
 
+
+
 #Hworks {
     height: 700px;
+}
+
+p.section {
+    font-size: 50px;
 }
