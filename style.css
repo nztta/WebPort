@@ -312,19 +312,18 @@ p.Artibuy {
     padding: 60px;
     align-items: flex-start; 
     text-align: left;   
-    margin-right: 100px;
+    width: 900px;
     border-top-right-radius: 20px; 
     border-bottom-right-radius: 20px;
     transition: all 1s ease;
 }
 .about{
-    height: 0;
+    height: 10;
     color: #fff;
-    font-size: 20px;
+    font-size: 50px;
     padding: 20px;
     align-items: flex-start; 
     text-align: left;   
-    margin-right: 600px; 
     font-family: 'K2D';
     text-align: left;
 }
@@ -338,17 +337,22 @@ p.Artibuy {
   gap: 20px;
   font-size: 3rem;
   color: #e74c3c;
-  margin-left: 500px;
-  margin-right: 500px;
   border-radius: 20px;
+  background: #121212;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  width: 700px;
 }
 
 .skills {
   display: flex;
   gap: 20px;
-  font-size: 3rem;
+  font-size: 100px;
   color: #e74c3c;
   margin: 0;
+  letter-spacing: 60px;
+
 }
 
 
@@ -388,6 +392,7 @@ p.Artibuy {
 }
 
 .fa-python{
+    width: 70px;
     color: white;
     transition: all .1s ease;
 }
@@ -421,6 +426,13 @@ p.Artibuy {
     text-align: left;
     align-items: start;
     padding-left: 60px;
+    width: 790px;
+    border-top-right-radius: 20px;
+    
+}
+
+.contact {
+    font-size: 50px;
 }
 
 .slide {
@@ -475,72 +487,107 @@ p.Artibuy {
 body.light-theme {
     background-color: var(--bg-light);
     color: var(--text-light);
+    transition: all 1s ease;
 }
 
 body.light-theme button {
+    transition: all 1s ease;
     background-color: var(--btn-bg-light);
     color: var(--btn-text-light);
 }
 
 body.light-theme nav {
+    transition: all 1s ease;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 body.light-theme .logo {
+    transition: all 1s ease;
     color: var(--logo-light);
 }
 
 body.dark-theme {
+    transition: all 1s ease;
     background-color: var(--bg-dark);
     color: var(--text-dark);
 }
 
 body.dark-theme button {
+    transition: all 1s ease;
     background-color: var(--btn-bg-dark);
     color: var(--btn-text-dark);
 }
 
 body.dark-theme nav {
+    transition: all 1s ease;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 body.dark-theme .logo {
+    transition: all 1s ease;
     color: var(--logo-dark);
 }
 
 
 body.light-theme .social-links i:hover {
+    transition: all 1s ease;
     background-color: var(--btn-bg-light);
     color: var(--text-light);
 }
 
 body.dark-theme .social-links i:hover {
+    transition: all 1s ease;
     background-color: var(--btn-bg-dark);
     color: var(--text-dark);
 }
 
 .theme-toggle {
+    transition: all 1s ease;
     background-color: var(--btn-bg-light);
     border-color: var(--btn-bg-light);
     color: var(--btn-text-light);
 }
 
 body.dark-theme .theme-toggle {
+    transition: all 1s ease;
     background-color: var(--btn-bg-dark);
     border-color: var(--btn-bg-dark);
     color: var(--btn-text-dark);
 }
 
 .theme-toggle:hover {
+    transition: all 1s ease;
     background-color: var(--btn-text-light);
     color: var(--btn-bg-light);
 }
 
 body.dark-theme .theme-toggle:hover {
+    transition: all 1s ease;
     background-color: var(--btn-text-dark);
     color: var(--btn-bg-dark);
 }
 
 .section-title {
     color:#e74c3c;
+    font-size: 80px;
+}
+
+#contact {
+    height: 0;
+}
+
+#Hworks {
+    height: 700px;
+}
+
+#skills {
+    height: 700px;
+}
+
+#Hworks {
+    height: 700px;
+}
+
+section{
+;
 }
