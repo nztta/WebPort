@@ -11,7 +11,7 @@
 <style>
 
 </style>
-<body class="light-theme">
+<body class="dark-theme">
     
     <nav>
         <button id="themeToggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
@@ -53,8 +53,12 @@
                     <a href="https://www.facebook.com/nattachai.potapthai/?locale=th_TH" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-instagram"></i></a>
                     
                 </div>
-        
-            </div>
+                <div class="audio-container">
+                <audio id="bgMusic" controls autoplay loop data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <source src="music.mp3" type="audio/mpeg">
+                </audio>
+           </div>
+         </div>
         </div>
         
     </section>
@@ -108,9 +112,7 @@
         </div>
     </section>
 
-    <audio autoplay muted loop>
-        <source src="music.mp3" type="audio/mpeg">
-      </audio>
+    
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     
