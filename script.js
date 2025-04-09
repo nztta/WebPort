@@ -86,3 +86,7 @@ function nextSlide() {
 }
 
 showSlide(currentIndex);
+
+window.addEventListener('click' , function*() {
+    document.getElementById('bgmusic').onplay();
+}, {once: true});
